@@ -1,0 +1,35 @@
+body {
+  text-align: left;
+  font-family: sans-serif;
+  font-weight: 100;
+}
+
+.titleFont {
+  font-size: 25px;
+  color: #0f1126;
+  font-weight: bold;
+  display: block;
+}
+
+.authorFont {
+  font-size: 20px;
+  font-family: Arial;
+  font-style: italic;
+  color: #0f1126;
+  font-weight: bold;
+  display: block;
+}
+
+.textFont {
+  font-family: Arial;
+  font-size: 15px;
+  color: #0f1126;
+  font-weight: normal;
+}
+
+.feedbackFont {
+  font-family: Arial;
+  font-size: 12px;
+  color: #182aca;
+  font-weight: bold;
+}

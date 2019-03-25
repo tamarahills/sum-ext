@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <script src="summarize.js"></script>
+    <link rel="stylesheet" type="text/css" href="summarize.css" />
+  </head>
+
+  <body>
+    <div id="errorDiv" style="visibility: hidden">
+      <p id="errorTag" class="feedbackFont"></p>
+    </div>
+    <div id="summary-content">
+      <p id="titleTag" class="titleFont"></p>
+      <p id="authorTag" class="authorFont"></p>
+      <p id="textTag" class="textFont"></p>
+      <p></p>
+      <p></p>
+      <div id="thanksDiv">
+        <p id="feedbackTag" class="feedbackFont"></p>
+      </div>
+      <div id="thumbsDiv">
+        <img src="" id="imageLike" onclick="likeClick()" />
+        <img src="" id="imageDislike" onclick="dislikeClick()" />
+      </div>
+      <p></p>
+
+      <div id="feedbackDiv" style="visibility: hidden">
+        <input type="radio" name="problem" value="tooShort" />Too short.<br />
+        <input type="radio" name="problem" value="tooLong" />Too long.<br />
+        <input type="radio" name="problem" value="notAccurate" />Did not make
+        sense.<br />
+        <input type="radio" name="problem" value="other" />Other
+        <input type="text" id="feedbackText" name="other_reason" />
+        <p></p>
+        <img src="../icons/submit.png" id="submitBtn" />
+      </div>
+    </div>
+  </body>
+</html>
